@@ -1,10 +1,7 @@
-.hero {
+.hero{
     background: url(/assets/hero.jpg);
-    width: 100%;
     /* set height */
-    min-height: 10vh;
-    max-height: 40vh;
-    top: 10px;
+    height: 45vh;
     position: relative;
     /* Parallax scrolling effect: */
     background-attachment: fixed;

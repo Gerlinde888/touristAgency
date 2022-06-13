@@ -8,18 +8,26 @@
 }
 
 #line {
-    border: 1px solid red;
+    border: 1px solid blue;
     width: 10%;
     margin: auto;
 }
 
 .circle {
     border: 1px solid white;
-    padding: 5px;
-    border-radius: 50%;
-    /* padding: 2%; */
-    width: 35px;
-    height: 35px;
-    justify-content: center;
-    /* margin: 2px 2px 2px 2px; */
+    width: 2em;
+    height: 2em;
+    border-radius: 0.99em;
+    text-decoration: none;
+    color: white;
+    padding-top: 0.4em;
+    margin-bottom: 0.7em;
+    font-size:xx-large;
+}
+
+.img_winter {
+    height: 300px;
+    overflow: hidden;
+
+
 }
