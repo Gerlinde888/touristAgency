@@ -6,8 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
- 
-projectName:string = "Tourist Agency";
+  title: string = "Linde's Travel Agency";
+  pageH: string= "Home";
+  pageA: string= "About us";
+  pageC: string= "Contact us";
+
+
   constructor() { }
 
   ngOnInit(): void {
